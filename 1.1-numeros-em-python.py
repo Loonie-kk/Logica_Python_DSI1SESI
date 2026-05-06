@@ -30,3 +30,32 @@ print ("Valor:", numero_inteiro)
 print("Tipo:", type (numero_inteiro))
 
 print("---------------------------")
+
+# Exemplo 02- Numero Decimal
+
+# Float é um numero com ponto decimal
+numero_decimal = 3.14
+
+print("Valor:", numero_decimal)
+print("Tipo:", type(numero_decimal))
+
+print("---------------------------")
+
+# Exemplo 03- Numeros Complexos
+# Um número complexo possui duas partes:
+# Parte real (Numero normal)
+# Parte Imaginária (multiplicada por j)
+
+# Estrutura Geral:
+# numero = a = bj
+
+# a = parte real
+# b = parte imaginária
+# j = unidade imaginária
+
+numero_complexo = 2 + 3j
+
+print("Valor:", numero_complexo)
+print("Tipo:", (numero_complexo))
+
+print("---------------------------")
